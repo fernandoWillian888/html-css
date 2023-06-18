@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Flexível</title>
+</head>
+<body>
+    <h1></h1>
+    <p>Você está vendo a imagem completa? Experimente aumentar a sua janela para aproveitar a melhor experiência &#x1F929</p>
+    <picture>
+        <source media="(max-width:380; max-height:660px)" srcset="./pexels-photo-360.jpg" type="image/jpeg">
+        <source media="(max-width:1300px; max-height:820px)" srcset="./pexels-photo-1280.jpg" type="image/jpeg">
+        <source media="(max-width:1386px; max-height:788px)" srcset="./pexels-photo-1366.jpg" type="image/jpeg">
+        <source media="(max-width:1940; max-height:1100px)" srcset="./pexels-photo-1920.jpg" type="image/jpeg">
+        <img src="./pexels-photo-full.jpg" alt="Imagem de paisagem localizada em Telluride, CO, United States">
+    </picture>
+</body>
+</html>

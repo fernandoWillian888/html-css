@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(103, 103, 238);
+            padding: 3px;
+            box-shadow: 1.5px 1px 1px 1px rgba(0, 0, 0, 0.264);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 35px;
+        }
+
+        nav > a:hover {
+            color: black;
+            text-decoration: underline;
+        } 
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 2px 1px 1px 1px rgba(0, 0, 0, 0.269);
+        }
+
+        article > aside {
+            background-color: dimgray;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 3px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Site Semântico</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Notícias">
+            <article>
+                <h1>Notícias sobre o Brasil</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum recusandae minima corporis! Laborum possimus enim quos, adipisci corporis suscipit doloremque nesciunt aspernatur soluta aperiam id saepe. Inventore rerum quae maiores.</p>
+                <aside>Willian, Fernando 2023</aside>
+            </article>
+        </section>
+        <section id="Texto">
+            <article>Escrito por Fernando Willian</article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Fernando Willian</p>
+    </footer>
+</body>
+</html>
