@@ -24,14 +24,10 @@
 <a href="exercícios/ex021">Exercício 20</a>
 
 <h2>Desafios<h2>
-<a href="exercícios/d001">Desafio 01</a>
-<a href="exercícios/d002">Desafio 02</a>
-<a href="exercícios/d003">Desafio 03</a>
-<a href="exercícios/d004">Desafio 04</a>
-<a href="exercícios/d005">Desafio 05</a>
-<a href="exercícios/d006">Desafio 06</a>
-<a href="exercícios/d007">Desafio 07</a>
-<a href="exercícios/d008">Desafio 08</a>
-<a href="exercícios/d009">Desafio 09</a>
-<a href="exercícios/d010">Desafio 10</a>
+<a href="exercícios/d005">Desafio 01</a>
+<a href="exercícios/d006">Desafio 02</a>
+<a href="exercícios/d007">Desafio 03</a>
+<a href="exercícios/d008">Desafio 04</a>
+<a href="exercícios/d009">Desafio 05</a>
+<a href="exercícios/d010">Desafio 06</a>
 <a href="exercícios/d010(1)">Projeto site android</a>
