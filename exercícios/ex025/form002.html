@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Login</h1>
+    <form action="script.js" method="post" autocomplete="on">
+        <p>
+            <label for="iduser">Usuário:</label><input type="text" name="user" id="iduser" required maxlength="12" size="6" placeholder="Informe o seu Usuário" autocomplete="username"></p>
+        </p>
+        <p>
+            <label for="idsenha">Senha:</label><input type="password" name="senha" id="idsenha" required minlength="8" maxlength="21" size="8" placeholder="Informe a sua senha" autocomplete="current-password">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>

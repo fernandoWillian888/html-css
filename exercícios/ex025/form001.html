@@ -7,11 +7,11 @@
 </head>
 <body>
     <h1>Meu primeiro formulário</h1>
-    <form action="cadastrar.js" autocomplete="off">
+    <form action="script.js" autocomplete="off">
         <p><label for="idnome">Nome:</label><input type="text" name="nome" id="idnome"></p>
         <p><label for="idsobrenome">Sobrenome:</label><input type="text" name="sobrenome" id="idsobrenome"></p>
-        <input type="submit" value="Enviar">
+        <input type="submit" value="Enviar" onclick="calcular()">
     </form>
-    <script src="script.js"></script>
+    <p id="resultado"></p>
 </body>
 </html>
