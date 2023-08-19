@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Avaliação</h1>
+    <form action="script.js">
+        <div>
+            <label for="nota">Avalie nossos serviços arrastando a barra ao lado -></label>
+            <input type="range" name="nota" id="nota" oninput="infnota.innerHTML = nota.value">
+        </div>
+        <p>
+            Sua nota para nossos serviços foi de: <output id="infnota">Nos avalie arrastando a barra acima!</output>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>

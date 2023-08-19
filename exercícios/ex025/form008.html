@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="script.js" method="get">
+        <p>
+            <label for="n1">1° Número</label>
+            <input type="number" name="numero1" id="n1" min="0" oninput="soma.innerHTML = Number(n1.value)+Number(n2.value)">
+        </p>
+        <p>
+            <label for="n2">1° Número</label>
+            <input type="number" name="numero2" id="n2" min="0" oninput="soma.innerHTML = Number(n1.value)+Number(n2.value)">
+        </p>
+        <p>
+            soma: <output id="soma">0</output>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
